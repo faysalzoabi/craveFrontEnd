@@ -1,0 +1,7 @@
+.showcase-small{
+    background-image: url('../../Images/homepage2_1.png');
+    height:20vh;
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

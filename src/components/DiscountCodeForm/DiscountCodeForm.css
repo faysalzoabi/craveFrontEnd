@@ -1,0 +1,16 @@
+#code{
+    border: none;
+    border-bottom: 2px solid red;
+    margin-top: 0;
+  }
+
+.discountapplybtn{
+    margin-left: 7px;
+}
+
+.discountapplybtn:disabled{
+    cursor: not-allowed;
+    opacity: 0.45;
+}
+
+

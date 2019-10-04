@@ -1,0 +1,32 @@
+.checkoutpayment_container{
+    display: flex;
+    
+    flex-direction: column;
+    height:250px;
+    justify-content: space-between;
+}
+
+.checkout__payment{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.checkout__payment__imgcontainer {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 120px;
+    /* height: 100px; */
+    /* padding:15px; */
+    text-align: center;
+}
+
+.checkout__payment__imgcontainer > img {
+    width:50%;
+    height: 60px;
+}
+
+.checkout_discountform{
+    margin: 0 auto;
+    width:80%;
+}

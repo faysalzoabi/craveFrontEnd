@@ -1,0 +1,39 @@
+.fbButtonContainer{
+    width:80%;
+}
+
+.facebook-button{
+    display: inline-flex;
+    background:#3b5998;
+    color:#fff;
+    border-radius: 2px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 0px 2px 0px;
+    width:100%;
+    padding:0px;
+    height:45px;
+}
+
+.facebook-button:hover{
+    box-shadow: 1px 4px 5px 1px rgba(0,0,0,0.1);
+    cursor:pointer;
+}
+
+.facebook-button__icon{
+    display:inline-block;
+    vertical-align:middle;
+    color: #fff;
+    margin-right: 10px;
+    padding:10px;
+    box-sizing:border-box;
+    position: relative;
+    bottom: 3px;
+}
+
+.facebook-button__text {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 10px 10px 10px 0px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Roboto',arial,sans-serif;
+  }

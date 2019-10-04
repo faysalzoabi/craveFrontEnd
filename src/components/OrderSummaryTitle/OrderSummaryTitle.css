@@ -1,0 +1,9 @@
+.checkout__container_title{
+    background:#1f5ea9;
+    color:white;
+    font-weight: 800;
+    font-size: 1.5rem;
+    width:100%;
+    padding:10px 0 10px 8px;
+    margin-bottom: 12px;
+}

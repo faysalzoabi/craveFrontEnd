@@ -1,0 +1,42 @@
+.itemcontainer{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fafafa;;
+    padding: 2px 0;
+}
+
+.itemcontainer__productname{
+    font-size:14px;
+    font-weight:600;
+    flex-basis: 43%;
+}
+
+.buttonscontainer{
+    flex-basis: 25%;
+}
+
+.itemcontainer__prodprice{
+    font-size: 13px;
+    font-weight: 700;
+    flex-basis: 22%
+}
+
+
+.facounter {
+   margin:3px;
+   font-size:21px;
+   color: midnightblue;
+   cursor:pointer;
+}
+
+.fadelete{
+    color:rgb(236, 9, 9);
+    cursor:pointer;
+    font-size: 13px;
+    flex-basis: 10%
+}
+
+.itemquantity{
+    font-weight: 500;
+}

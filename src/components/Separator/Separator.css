@@ -1,0 +1,17 @@
+.separator{
+    background: #d7d7d7;
+    color: #0a3847;
+    font-size: 15px;
+    height: 1px;
+    margin: 53px 0 40px;
+    position: relative;
+    text-align: center;
+    width: 85%;
+}
+
+.separator span {
+    position: relative;
+    top: -12px;
+    padding: 0 20px;
+    background: #fff;
+}

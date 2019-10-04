@@ -1,0 +1,24 @@
+.filterContainer{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+
+.filterTitle {
+    font-weight: bold;
+}
+
+.filterContents{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.inputFilter{
+    width: 1em;
+    height: 1em;
+    margin-right: 0.2em;
+}

@@ -1,0 +1,12 @@
+.location-container {
+    flex-basis: 40%;
+}
+
+.location-content{
+    font-size: 1.4rem;
+}
+
+.angleRight{
+    color: #000000;
+    font-size: 20px;
+}

@@ -1,0 +1,64 @@
+
+.checkout__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkout__info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:90%;
+    background:#f6f6f6;
+}
+
+
+.checkout_contents{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.deliveryCharges{
+    margin-bottom: 30px;
+}
+.checkoutout__btn{
+    background: #28a745;
+    color: #fff;
+    font-weight: 600;
+    padding: 10px;
+    width: 100%;
+    border:none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.checkoutout__btn:hover{
+    background: darkgreen;
+}
+
+
+.fieldvalue{
+    font-weight: 700;
+}
+
+
+.cancelpay {
+    text-decoration: line-through;
+}
+
+.makeitgreen{
+    color:#28a745;
+}
+
+.redFont{
+    color:red;
+}
+
+.checkoutout__btn:disabled{
+    cursor: not-allowed;
+    opacity: 0.45;
+}

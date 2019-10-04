@@ -1,0 +1,12 @@
+.cityAreas li{
+    padding: 5px 0;
+}
+
+.cityAreas li:hover {
+    cursor:pointer;
+    background-color: #f6f6f6;
+}
+
+.cityName{
+    font-weight: 800;
+}

@@ -1,0 +1,48 @@
+
+.searchmenu{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 auto;
+    width: 75%;
+}
+
+
+.restaurants-section{
+    margin-top: 30px;
+    display:flex;
+    flex-direction: row;
+}
+
+.restaurants-main{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex:1 1 100%;
+    width: calc(100% - 250px);
+    box-sizing: border-box;
+    padding:0px;
+}
+
+.restaurants-aside{
+    flex:0 0 250px;
+    background:#e3e3e3;
+    padding-left: 60px;
+    padding-top: 20px;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+}
+
+.restaurantsContainer{
+    background: #fff;
+    width: 100%;
+}
+
+.shimmercontainer{
+    margin:0 auto;
+    width:600px;
+}

@@ -1,0 +1,32 @@
+.searchCityContainer{
+    width:95%;
+    margin: 0px auto 35px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchCityContents{
+    width:100%;
+}
+.searchCityInput{
+    width:100%;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding:8px 0 8px 8px;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-right: transparent;
+}
+
+.searchIconContents{
+    border: 1px solid #ddd;
+    border-left: transparent;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    padding:8px 8px  8px 0;
+}

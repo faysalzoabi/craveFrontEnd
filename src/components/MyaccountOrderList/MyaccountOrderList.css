@@ -1,0 +1,11 @@
+.orderlist__noitems{
+    min-height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.orderlist__noitems h4{
+    color:#ddd;
+}

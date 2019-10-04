@@ -1,0 +1,15 @@
+.menuItemsTitle{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.menuContents li{
+    margin-bottom: 8px;
+    padding: 0.5rem 0  0.5rem 0.8rem;
+    cursor: pointer;
+}
+
+.menuContents > li:hover{
+    background-color: #ddd;
+}

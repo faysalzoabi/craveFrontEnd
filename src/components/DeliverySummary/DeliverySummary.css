@@ -1,0 +1,17 @@
+.checkout__checkout__delivery{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.checkout__delivery__selectorcontainer{
+    margin-bottom:10px;
+}
+
+select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }

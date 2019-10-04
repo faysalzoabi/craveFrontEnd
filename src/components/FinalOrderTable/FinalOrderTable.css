@@ -1,0 +1,37 @@
+.orderstatus_table{
+    overflow-x:auto;
+    flex-basis: 60%;
+    margin-right: 2rem;
+    border: 1px solid #ddd;
+}
+
+
+.orderStatusTableHeadRow{
+    background-color: #f6f6f6;
+}
+.orderStatusTableHeadRow th {
+    padding:10px;
+    text-align: center;
+}
+
+.orderstatus_tablerow{
+    border-bottom:1px solid lightgray;
+}
+.orderstatus_tablerow td {
+    width: 25% ;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.orderstatus_tableimg{
+    width: 80px;
+    overflow: hidden;    
+    margin: auto;
+    object-fit: contain;
+    padding: 5px;
+}
+
+.orderstatusCard-img{
+    width: 40px;
+}
+

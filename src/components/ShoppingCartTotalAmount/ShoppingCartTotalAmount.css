@@ -1,0 +1,36 @@
+.cart__calc{
+    margin-bottom: 30px;
+    display:flex;
+    flex-direction: column;
+}
+.cart__calc__contents{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom:5px;
+}
+
+
+.cart_calc{
+    flex-basis: 50%;
+}
+
+.deliveryFeeContainer{
+    margin-bottom: 20px;
+}
+
+.mutingText{
+    color: #aba9ab;
+}
+
+.redHightlight{
+    color: red;
+}
+.cart_calc_total{
+    font-weight: 600;
+    columns: #000000;
+}
+
+.cartFontSize{
+    font-size: 13px;
+}

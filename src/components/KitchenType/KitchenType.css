@@ -1,0 +1,26 @@
+.horizontal-menu {
+    background-color: #1f5ea9;
+    margin-bottom: 30px;
+    color: white;
+    font-weight: 500;
+}
+
+.menu-item {
+    padding: 0 40px;
+    margin: 5px 10px;
+    user-select: none;
+    cursor: pointer;
+    border: none;
+  }
+  /* .menu-item-wrapper.active {
+    color:  blue solid;
+  } */
+  .menu-item.active {
+    color: blue;
+    font-weight: 600;
+  }
+   
+  .scroll-menu-arrow {
+    padding: 20px;
+    cursor: pointer;
+  }

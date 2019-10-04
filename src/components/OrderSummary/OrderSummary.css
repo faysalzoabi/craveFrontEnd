@@ -1,0 +1,19 @@
+table {
+    width:100%;
+}
+
+
+.checkoutButtonContainer{
+    text-align: center;
+}
+
+.checkoutTh {
+    background:#f6f6f6;
+    padding: 10px;
+    text-align: left;
+}
+
+.checkoutTd {
+    padding: 3px 15px;
+    text-align: left;
+}

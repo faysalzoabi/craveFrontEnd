@@ -1,0 +1,67 @@
+.productcard{
+    border: 1px solid #ebebeb;
+    border-radius: 2px;
+    margin: 8px 0;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.productcard:hover{
+    background-color: rgba(73,170,255,.1);
+    text-decoration: none;
+}
+
+.productcard-container{
+    display: grid;
+    grid-gap: 0.625rem;
+    grid-template-columns: repeat(12,1fr);
+    align-items: center;
+    justify-content: center;
+}
+
+.productcard-container{
+    grid-column: 1/3;
+}
+
+.productcard-image{
+    padding: 5px;
+    width:80px;
+    height:70px;
+    border: 1px solid #e4e4e4;
+}
+
+.card-img {
+    width:100%;
+    height:100%;
+}
+
+.productcard-body{
+    grid-column: 2/9;
+}
+
+.productcard-title{
+    color: black;
+}
+
+.productcard-text{
+    grid-column: 2/9;
+}
+
+.postcard-price{
+    color: #ff8000;
+    font-weight: 700;
+    grid-column: 10/12;
+    letter-spacing: -.5px;
+}
+
+.pluscircle{
+    color: #00A53C;
+    cursor: pointer;
+    grid-column: 12/12;
+}
+
+.faplus{
+    width:29px;
+    height:29px;
+}
+

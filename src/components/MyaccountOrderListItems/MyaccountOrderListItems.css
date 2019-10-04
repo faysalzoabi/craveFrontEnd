@@ -1,0 +1,36 @@
+.orderListItem__container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+    border-bottom:1px solid #ddd;
+}
+
+.orderListItem__imgcontainer{
+    width:100px;
+    height:80px;
+    margin-right: 10px;
+}
+.orderListItem__contentswrapper{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.orderListItem__itemcontents{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.orderListItem__itemcontents h4 {
+    color: red;
+}
+
+.itemTitle{
+    color:#007bff;
+    font-weight: 700;
+
+}

@@ -1,0 +1,46 @@
+.checkout__delivery{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.checkout__deliveryswitch{
+    margin:0 auto 10px auto;
+}
+.checkout__delivery__inputcontainer {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.checkout__label__container{
+    background: #f6f6f6;
+    margin-bottom: 3px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.checkout__label{
+    padding: 8px;
+}
+.checkout__radiobtn{
+    margin-right: 5px;
+}
+
+.checkout__btn__container{
+    margin:0 auto;
+}
+
+.checkoutout__address__btn{
+    background: #28a745;
+    color: #fff;
+    font-weight: 600;
+    padding: 10px;
+    width: 100%;
+    border:none;
+    border-radius: 5px;
+    margin-top: 20px;
+}

@@ -1,0 +1,109 @@
+.restaurantsResults_inner{
+    border-bottom: 1px solid #eee;
+    padding: 20px 20px;
+    line-height: 1.2rem;
+}
+
+.restaurantCard{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.restaurantsResults_inner:hover{
+    cursor: pointer;
+    background-color: rgba(73,170,255,.1);
+    text-decoration: none;
+}
+
+.restaurants_Logo{
+    width:110px;
+    height:70px;
+    margin-right:1rem;
+}
+
+.restaurants_logo_img{
+    width:100%;
+    height:100%;
+}
+
+.restaurantCard-body{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    font-size: 1.3rem;
+}
+
+.restaurantCart-content{
+    flex-basis:18%;
+    font-size: 0.9rem;
+}
+
+.restaurantCart-item{
+    color:#ff8000;
+    font-weight: 600;
+}
+
+.restaurantCard_body_title{
+    flex-basis:35%;
+    color:#333;
+}
+
+
+.card-subtitle{
+    font-style: italic;
+    color: #099e44;
+}
+
+
+a {
+    text-decoration: none ;
+}
+
+a:hover
+{
+text-decoration:none;
+cursor:pointer;
+}
+
+
+.restaurantCart_offerlogo 
+{ 
+    border:1px solid red; 
+    min-width: 50px;
+    height: 45px; 
+    text-align: center; 
+    color:red;
+    font-weight: 600;
+    border-radius:10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.noOffer{
+    min-width: 50px;
+    height: 45px;
+}
+.offerlogo_off{
+    font-weight: 600;
+}
+
+.restaurantCart_offerlogo
+{ 
+    transform: rotate(-30deg); 
+} 
+
+
+.restaurantCart-fee{
+    color: #49aaff;
+    text-transform: uppercase;
+}
+
+

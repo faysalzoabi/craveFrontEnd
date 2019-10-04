@@ -1,0 +1,13 @@
+.productImg{
+    width:90px;
+    height:70px;
+    margin-right: 15px;
+    object-fit: cover;
+}
+
+.productImg_default{
+    width:90px;
+    height:70px;
+    margin-right: 15px;
+    object-fit: contain;
+}

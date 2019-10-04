@@ -1,0 +1,16 @@
+.react-switch {
+    vertical-align: middle;
+    margin-left: 6px;
+  }
+
+.react-switch__Delivery{
+    color:#28a745;
+    display: inline;
+    font-weight: 800;
+}
+
+.react-switch__Pickup {
+    color:#aaa;
+    display: inline;
+    font-weight: 800;
+}

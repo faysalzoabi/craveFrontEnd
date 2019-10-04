@@ -1,0 +1,36 @@
+
+.orderlist__topbanner{
+    max-width:50%;
+    height: 90px;
+    margin:0 auto;
+}
+
+
+.orderList__container{
+    max-width: 50%;
+    margin:0 auto;
+    background-color: #fff;
+    min-height: 457px;
+    box-shadow: 0 0 5px 0 #aba9ab;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.orderList__contents{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-bottom: 40px;
+}
+
+.orderList__menu{
+    flex-basis:15%;
+    border-right: 1px solid #E0E0E0;
+    margin-top: 50px;
+}
+
+.orderList__orderContents{
+    flex-basis:70%;
+    margin-top: 50px;
+}

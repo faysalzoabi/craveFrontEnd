@@ -1,0 +1,91 @@
+.orderstatus_container{
+    max-width:1000px;
+    min-height: 500px;
+    box-shadow: 0 0 5px 0 #aba9ab;
+    background: #fff;
+    margin: 40px auto 40px auto;
+    padding-bottom: 13px;
+}
+
+.orderstatus_contents{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    padding: 30px;
+}
+
+.orderstatus_titledetail{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.orderstatus_card{
+    display:flex;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    width:90%;
+}
+
+.orderstatus_cardimg{
+    width:130px;
+    height:130px;
+    overflow: hidden;
+    object-fit: contain;
+}
+.orderstatus_progressbar{
+    width: 100%;
+    margin-top: 40px;
+}
+
+
+.orderstatus_progressbar_title{
+    color:#00A53C;
+    text-align: center;
+}
+
+.orderstatus_progressbar_title h4{
+    font-size: 1.8rem;
+}
+
+
+.orderstatus_estimate {
+    margin-bottom: 38px;
+    margin-top: 38px;
+}
+.orderstatus_steps{
+    display:flex;
+    justify-content: space-between;
+}
+
+.orderstatus_details > h6{
+    font-size: 13px;
+    line-height: 6px;
+}
+
+.orderstatus_tables{
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 95%;
+    margin-top: 40px;
+}
+
+
+.highlightstatus{
+    color: #1f5ea9;
+    font-weight: 700;
+}
+
+.grayedstatus{
+    color:#aba9ab;
+    font-weight:500;
+}
+
+.homeButton{
+    text-align: center;
+}

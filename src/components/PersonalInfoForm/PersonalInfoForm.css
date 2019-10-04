@@ -1,0 +1,79 @@
+.formContainer{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.formContents{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formContents label {
+    width:60%;
+}
+
+.personalFormInput{
+    background-color: #fff !important;
+    border-radius: 5px;
+    width:100%;
+    border: 1px solid #ccc;
+    padding: 6px !important;
+    margin-bottom: 4px !important;
+}
+
+.updateForm {
+    display: inline-block;
+    background: midnightblue !important;
+    border:1px solid transparent;
+    color:#fff;
+    padding: .375rem .75rem !important;
+    font-weight: 800;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    width:60%;
+    margin-top: 18px;
+}
+
+.input[type="submit"][disabled]{
+    cursor: not-allowed;
+    background-color: #cccccc;
+    color: #666666;
+}
+
+.labelTitle{
+    color: #727272;
+    font-weight: 700;
+}
+
+.notallowed{
+    cursor: not-allowed;
+    background-color:#f6f6f6;
+}
+
+
+.errorMsgContainer{
+    text-align: center;
+}
+
+.formErrorMessage{
+    padding:12px;
+    background-color: #ffebe8;
+    border: 1px solid #dd3c10;
+    border-radius: 3px;
+    margin:0 auto 8px auto;
+    color: #5d3c01;
+    font-size: 12px;
+    max-width: 60%;
+}
+
+.checkMark{
+    color: green;
+    margin-right: 5px;
+    font-size: 20px;
+}
